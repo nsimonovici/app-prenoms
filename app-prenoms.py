@@ -35,9 +35,9 @@ girls = st.checkbox('Filles')
 boys = st.checkbox('Garçons')
 sexes = []
 if girls:
-    sexes.append(1)
-if boys:
     sexes.append(2)
+if boys:
+    sexes.append(1)
 if len(sexes) == 0:
     sexes = [1, 2]
 
