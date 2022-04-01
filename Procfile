@@ -1,0 +1,1 @@
+web: sh app-heroku/setup.sh && streamlit run app-heroku/app-prenoms.py
